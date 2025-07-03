@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react'
-import {useParams} from 'react-router-dom'
-import { assets, blog_data, comments_data } from '../assets/assets'
-import Navbar from '../components/Navbar'
 import Moment from 'moment'
+import React, { useEffect, useState } from 'react'
+import toast from 'react-hot-toast'
+import { useParams } from 'react-router-dom'
+import { assets, blog_data, comments_data } from '../assets/assets'
 import Footer from '../components/Footer'
 import Loader from '../components/Loader'
+import Navbar from '../components/Navbar'
 import { useAppContext } from '../context/AppContext'
-import toast from 'react-hot-toast'
 
 const Blog = () => {
 
@@ -72,7 +72,7 @@ const Blog = () => {
         <p className='text-primary py-4 font-medium'>Published on {Moment(data.createdAt).format('MMMM Do YYYY')}</p>
         <h1 className='text-2xl sm:text-5xl font-semibold max-w-2xl mx-auto text-gray-800'>{data.title}</h1>
         <h2 className='my-5 max-w-lg truncate mx-auto'>{data.subTitle}</h2>
-        <p className='inline-block py-1 px-4 rounded-full mb-6 border text-sm border-primary/35 bg-primary/5 font-medium text-primary'>Michael Brown</p>
+        <p className='inline-block py-1 px-4 rounded-full mb-6 border text-sm border-primary/35 bg-primary/5 font-medium text-primary'>Shreeya Phapale</p>
       </div>
 
       <div className='mx-5 max-w-5xl md:mx-auto my-10 mt-6'>
