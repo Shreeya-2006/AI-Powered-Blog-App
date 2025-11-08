@@ -2,8 +2,8 @@
 
 # AI-Powered Blog App
 
-MERN Stack Project: Learn how to make an **AI-enabled full stack blog app** using **MongoDB, Express.js, React.js, Node.js**, **Google Gemini**, and **ImageKit API**.  
-Build and deploy a blog application with an admin panel using React.js, and deploy it online using **Vercel**.
+**AI-powered full stack blog app** using **MongoDB, Express.js, React.js, Node.js**, **Google Gemini**, and **ImageKit API**.  
+Built and deployed a blog application with an admin panel using React.js, and deploy it online using **Vercel**.
 
 This full stack project includes:
 - AI-powered content generation using Google Gemini
